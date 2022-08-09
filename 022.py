@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo: '))
+nomemin = nome.lower()
+nomemai = nome.upper()
+lsemesp = len(nome) - nome.count(' ')
+nomedividido = (nome.split())
+lpnome = len(nomedividido[0])
+print('Nome minúsculo: {} \n Nome maiúsculo: {} \n Quantidade de letras sem espaço: {} \n Quantidade de letras do primeiro nome: {}.'.format(nomemin, nomemai, lsemesp,lpnome))
